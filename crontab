@@ -1,0 +1,2 @@
+* * * * * /usr/local/bin/python3 /bot_dir/bot/main.py >> /var/log/cron.log 2>&1
+0 1 * * * /usr/local/bin/python3 /bot_dir/bot/new_token_script.py >> /var/log/cron.log 2>&1

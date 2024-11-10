@@ -1,0 +1,5 @@
+{
+  "new_token": "https://api.orion-terminal.ru/api/v1/export/token/",
+  "info-units": "https://api.orion-terminal.ru/api/v1/export/info-units/info-units/",
+  "info-unit_link": "https://orion-terminal.ru/info-units/view/"
+}

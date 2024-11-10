@@ -1,0 +1,10 @@
+version: "3"
+services:
+  bot:
+    build:
+      context: .
+    container_name: kaluga_terminal_bot_cron
+    volumes:
+      - /home/terminal_bots/kaluga_bot/bot/data_files:/bot_dir/bot/data_files
+      - /home/terminal_bots/kaluga_bot/bot/config_files:/bot_dir/bot/config_files
+    restart: always
